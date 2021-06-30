@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pantalla principal</title>
+        <script src="index.js"></script> 
+    </head>
+    <body onload="load()">
+        <label>Titulo:</label>
+        <input type="text" id="titulo" name="titulo">
+        <br>
+        <br>
+        <label>Descripcion:</label>
+        <input type="text" id="descripcion" name="descripcion">
+        <br>
+        <br>
+        <label>imagen:</label>
+        <input type="text" id="imagen" name="imagen">
+        <br>
+        <br>
+        <label>duracion:</label>
+        <input type="text" id="duracion" name="duracion">
+        <br>
+        <br>
+        <label>puntaje:</label>
+        <input type="text" id="puntaje" name="puntaje">
+        <br>
+        <br>
+        <label>año:</label>
+        <input type="text" id="anio" name="anio">
+        <br>
+        <br>
+        <label>Trailer:</label>
+        <input type="text" id="trailer" name="trailer">
+        <br>
+        <br>
+        <label>Generos</label><br><br>    
+                <label class="checkbox">
+                    Fantasia
+                    <input type="checkbox" name="nombre_genero[]" value="Fantasia">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    Terror
+                    <input type="checkbox" name="nombre_genero[]" value="Terror">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    Accion
+                    <input type="checkbox" name="nombre_genero[]" value="accion">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    Drama
+                    <input type="checkbox" name="nombre_genero[]" value="Drama">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    Comedia
+                    <input type="checkbox" name="nombre_genero[]" value="Comedia">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    SCI-FI
+                    <input type="checkbox" name="nombre_genero[]" value="SCI-FI">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    Aventura
+                    <input type="checkbox" name="nombre_genero[]" value="Aventura">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    Crimen
+                    <input type="checkbox" name="nombre_genero[]" value="Crimen">
+                    <span class="check"></span>
+                </label>
+                <label class="checkbox">
+                    Romance
+                    <input type="checkbox" name="nombre_genero[]" value="Romance">
+                    <span class="check"></span>
+                </label>
+            </div>
+        </div>
+        <br>
+        <br>
+        <button type="submit" name="enviar" id="enviar">Enviar</button>
+    </body>
+</html>
