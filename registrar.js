@@ -87,7 +87,7 @@ function enviarMensajeAlServidorPost(servidor, funcionARealizar) {
     //envio el mensaje    
     xmlhttp.send(datos);
 }
-
+}
 
 
 /*function cargarOpcionesPeliculas(valor) {
