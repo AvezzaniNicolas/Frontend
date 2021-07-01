@@ -19,11 +19,13 @@ function click(){
 }
 
 function retornoDelClick(respuesta){
-    if(respuesta == 'Bienvenido'){
+    /*if(respuesta == 'Bienvenido'){
         location.replace("pantallaprincipal.html");
     }else{
         alert('error al ingresar');
-    }
+
+    }*/
+    alert (respuesta);
 }
 
 function enviarMensajeAlServidor(servi, funcionARealizar){
