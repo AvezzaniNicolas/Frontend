@@ -1,7 +1,7 @@
 addEventListener("load", load);
 //llamo al servidor
 //var servi = "http://localhost:444/login";
-var servi = "https://servidorbackend.herokuapp.com/login";
+var servi = "https://servidorbackend.herokuapp.com/login/";
 
 function $(demo){
     return document.getElementById(demo);
