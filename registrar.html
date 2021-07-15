@@ -3,14 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <title>Registrarte</title>
-        <script src="registrar.js"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/estilos.css">
+        <script src="altaproducto.js"></script> 
     </head>
     <body onload="load()">
-        <label>Ingrese nombre:</label>
-        <input type="text" id="usuario1" name="usuario1">
-        <label>Ingrese contraseña:</label>
-        <input type="password" id="contra1" name="contra1">
-        <button type="submit" name="enviar" id="enviar">Registar</button>
-        <a href="index.html">Regresar</a>
+        <div class="container login">
+            <div class="form">
+            <div class="form-group" id="user-group">
+              <label for="user">Usuario</label>
+              <i class="fas fa-user" style="color:black"></i><input class="form-control" type="text" id="usuario1" name="usuario1" required>
+            </div>
+            <div class="form-group" id="password-group">
+              <label for="contra">Contraseña</label>
+              <i class="fas fa-lock" style="color:black"></i><input class="form-control" type="password" name="contra1" id="contra1" required >
+              <a style="float:left;color:white" href="index.html">Ya tengo una cuenta</a>
+            </div>
+            <br>
+            <div class="form-group">
+              <button type="submit" name="enviar" id="enviar" class="btn btn-primary">Registrar</button>
+            </div>
+            </div>
+            </div>
     </body>
 </html>

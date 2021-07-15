@@ -3,23 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/estilos.css">
     <script src="index.js"></script>
-    
   </head>
   <body onload="load()">
-    <div class="login">
-      <div class="login-triangle"></div>
-      
-      <h2 class="login-header">Log in</h2>
-
-    <form class="login-container">  
-    <label>Ingrese nombre:</label>
-    <input type="text" id="usuario" name="usuario" placeholder="usuario" required />
-    <label>Ingrese contraseña:</label>
-    <input type="password" name="contra" id="contrasenia" placeholder="contrasenia" required />
-    <button type="submit" name="enviar" id="ingresar" Value="Login">Enviar</button>
-    </form>
-    <a href="registrar.html">Registrar</a>
-    </div>
-  </body>
-</html>
+    <div class="container login">
+      <div class="form">
+      <div class="form-group" id="user-group">
+        <label for="user">Usuario</label>
+        <i class="fas fa-user" style="color:black"></i><input class="form-control" type="text" id="usuario" name="usuario" required>
+      </div>
+      <div class="form-group" id="password-group">
+        <label for="contra">Contraseña</label>
+        <i class="fas fa-lock" style="color:black"></i><input class="form-control" type="password" name="contra" id="contrasenia" required >
+        <a style="float:left;color:white" href="registrar.html">Crear una cuenta nueva</a>
+      </div>
+      <br>
+      <div class="form-group">
+        <button type="submit" name="enviar" id="ingresar" class="btn btn-primary">Ingresar</button>
+      </div>
+      </div>
+      </div>
+    </body>
+  </html>
